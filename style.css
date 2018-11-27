@@ -1,0 +1,39 @@
+#snake canvas {
+	border: 5px outset black;
+}
+
+.d-pad {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  top: -200px;
+  right: -100px;
+}
+
+#buttonUp, #buttonDown {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#buttonUp {
+  top: 0;
+}
+
+#buttonDown {
+  bottom: 0;
+}
+
+#buttonLeft, #buttonRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#buttonLeft {
+  left: 0;
+}
+
+#buttonRight {
+  right: 0;
+}
